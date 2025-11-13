@@ -14,4 +14,4 @@ jobs:
         uses: projg2/crate-dist-mirror-action@v2
         with:
           ssh-private-key: ${{ secrets.ssh_key }}
-          directories: scheds/rust/scx_* rust/* tools/scxtop
+          directories: scheds/rust/scx_* rust/scx_arena/* rust/scx_[b-z]* tools/*
